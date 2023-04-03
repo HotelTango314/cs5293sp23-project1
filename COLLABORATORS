@@ -1,0 +1,28 @@
+LIST OF COLLABORATORS
+
+StackOverflow | 
+
+github | https://github.com/explosion/spaCy/issues/3862 | learned about filter_span utility, removes overlap spans
+
+StackOverflow | https://stackoverflow.com/questions/63302027/how-to-avoid-double-extracting-of-overlapping-patterns-in-spacy-with-matcher | more about filter_span utility
+
+github | https://github.com/explosion/spaCy/blob/d622883a427f7837ce8d3ea5116bbbf1acb7d675/spacy/util.py#L1222 | source code of filter_span utility
+
+SpaCy Docs | https://spacy.io/api/top-level#util.filter_spans | additional filter_span documentation
+
+
+SpaCy Docs | https://spacy.io/usage/rule-based-matching/ | Learning about rule-based matching
+
+StackOverflow | https://stackoverflow.com/questions/5574702/how-do-i-print-to-stderr-in-python | learn abt. stderr
+
+Geeksforgeeks | https://www.geeksforgeeks.org/writing-to-file-in-python/ | refresher on writing to files in Python
+
+StackOverflow | https://stackoverflow.com/questions/35818124/using-with-open-as-file-method-how-to-write-more-than-once | more on opening, writing to, and saving files from python
+
+StackOverlow | https://stackoverflow.com/questions/57130303/how-to-permanently-delete-a-file-in-python-3-and-higher | How to delete a file from Python for cleaning up after running tests.
+
+StackOverflow | https://stackoverflow.com/questions/41752946/replacing-a-character-from-a-certain-index | Researching the best way to actually insert the special block character into the redacted passages.
+
+GitHub | https://github.com/explosion/spaCy/discussions/6093 | Finding Character Index of Span
+
+PythonDocs | https://docs.python.org/3/library/glob.html | Researching how to use glob to get all files
