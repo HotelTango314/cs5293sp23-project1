@@ -122,3 +122,5 @@ This test creates several stray files in the process of running. To keep things 
 The reporting feature of this python package runs off of sqlite3. The redaction data is loaded into the database and then queried to create the report.
 
 One important piece of this project is the use of one of the SpaCy utilities called filter\_spans(). The filter\_spans() utility combines overlapping spans and makes it easier to report on the spans that were redacted.
+
+Various websites were consulted including SpaCy docs and other sites used in order to enhance my understanding of the SpaCy package and python programming in general. With the knowledge gained at these sites I designed my own implementation of this project. All consulted sites are listed in the COLLABORATORS file.

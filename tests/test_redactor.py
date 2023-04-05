@@ -42,10 +42,10 @@ def test_save_file():
     filename = '/sample.txt'
     output = ''
     redactor.save_file(text,filename,output)
-    with open('sample.redacted','r') as f:
+    with open('sample.txt.redacted','r') as f:
         result = f.read()
     test = (result == text)
-    os.unlink('sample.redacted')
+    os.unlink('sample.txt.redacted')
     assert test
 
 def test_functionality():
@@ -56,7 +56,7 @@ def test_functionality():
     redactor.main(filename, True, True, True, True, True, 'docs/','test_stats')
     redact_text = ("███████████was born █████████ ███lived at █████████████████████████ ████phone number is █████████████")
     
-    with open('docs/sample.redacted') as f:
+    with open('docs/sample.txt.redacted') as f:
         test = f.read()
     result = redact_text == test
     for file in glob.glob('docs/sample.*'):

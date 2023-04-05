@@ -107,7 +107,7 @@ def prep_report(data_dict):
     return report_lines
 
 def save_file(text, filename, output):
-    no_slash = filename[filename.find('/')+1:-4]
+    no_slash = filename[filename.find('/')+1:]
     new_path = f'{output}{no_slash}.redacted'
     with open(new_path, 'w') as f:
         f.write(text)
